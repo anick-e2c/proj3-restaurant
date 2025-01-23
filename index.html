@@ -4,148 +4,200 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Restauran Anick.D</title>
+    <title>Restaurant Anick.D</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
-    <header>
-        <div class="container">
-            <h1>Anick.D</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Apropos de nous</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Accueil</a></li>
-                </ul>
-            </nav>
-        </div>
+<body class="m-0">
+    <header class="bg-secondary">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo1.jpg" alt="Logo" width="35" height="30"
+                        class="d-inline-block align-text-top">
+                    <strong style="color: black; font-size: 2em; font-family: arial, sans-serif;">Anick<span style="color: orangered;">.</span>D</strong>
+                </a>
+                <ul class="nav justify-content-end " style="font-family: arial, sans-serif;">
+                    <li class="nav-item">
+                      <a class="nav-link text-black fw-bold  active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black fw-bold" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black fw-bold " href="#About">About us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black fw-bold" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+            </div>
+        </nav>
     </header>
     <!--Sections Héros-->
-    <section class="main-image">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
+    <section class="main-image bg-secondary mb-4"
+        >
+        <div class="container-fluid " style=" background: url('img/main-image.jpg') no-repeat; background-size: cover; height: 50rem;">
+            <div class="row mb-5 d-flex justify-content-center ">
+                <div class="col-6 align-items-center mt-5 ">
                     <!--Titre-->
-                </div>
-                <div class="row">
+                    <p  >
+                        <h1 style="color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 5rem;">Savourez de la bonne cuisine chez nous.</h1>
+                    </p>
                     <button class="btn btn-primary" type="button">commandez ici!</button>
                 </div>
+
             </div>
         </div>
     </section>
     <!--MENUS-->
-    <section class="menu">
+    <section class="menu mb-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="img/fries_chicken.jpg" class="card-img-top" alt="fries-chicken">
-                        <div class="card-body">
-                          <h5 class="card-title">Fries chicken</h5>
-                          <p class="card-text">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illo pariatur! Hic minus ipsum
-                            quidem, quia tempora odit molestiae officia sapiente et repudiandae repellendus architecto
-                            blanditiis atque itaque libero vitae.
-                          </p>
-                          <p><span> 5.000 frs</span></p>
-                          <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                        <img src="img/fries_chicken.jpg" class="card-img-top" alt="fries-chicken" style="height: 15rem;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold" style="font-family: arial, sans-serief;">Fries chicken</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illo pariatur! Hic minus
+                                ipsum
+                                quidem, quia tempora odit molestiae officia sapiente et repudiandae repellendus
+                                architecto
+                                blanditiis atque itaque libero vitae.
+                            </p>
+                            <p><span class="fw-bold" style="color: orangered;"> 5.000 frs</span></p>
+                            <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="img/fries_chicken.jpg" class="card-img-top" alt="fries-chicken">
-                        <div class="card-body">
-                          <h5 class="card-title">Fries chicken</h5>
-                          <p class="card-text">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illo pariatur! Hic minus ipsum
-                            quidem, quia tempora odit molestiae officia sapiente et repudiandae repellendus architecto
-                            blanditiis atque itaque libero vitae.
-                          </p>
-                          <p><span> 5.000 frs</span></p>
-                          <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                        <img src="img/burger.png" class="card-img-top" alt="fries-chicken" style="height: 15rem;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold" style="font-family: arial, sans-serief;">Burgers</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illo pariatur! Hic minus
+                                ipsum
+                                quidem, quia tempora odit molestiae officia sapiente et repudiandae repellendus
+                                architecto
+                                blanditiis atque itaque libero vitae.
+                            </p>
+                            <p><span class="fw-bold" style="color: orangered;"> 5.000 frs</span></p>
+                            <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="img/fries_chicken.jpg" class="card-img-top" alt="fries-chicken">
-                        <div class="card-body">
-                          <h5 class="card-title">Fries chicken</h5>
-                          <p class="card-text">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illo pariatur! Hic minus ipsum
-                            quidem, quia tempora odit molestiae officia sapiente et repudiandae repellendus architecto
-                            blanditiis atque itaque libero vitae.
-                          </p>
-                          <p><span> 5.000 frs</span></p>
-                          <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                        <img src="img/pizza.jpg" class="card-img-top" alt="fries-chicken" style="height: 15rem;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold" style="font-family: arial, sans-serief;">Pizzas</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illo pariatur! Hic minus
+                                ipsum
+                                quidem, quia tempora odit molestiae officia sapiente et repudiandae repellendus 
+                                architecto
+                                blanditiis atque itaque libero vitae.
+                            </p>
+                            <p><span class="fw-bold" style="color: orangered;"> 5.000 frs</span></p>
+                            <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="img/fries_chicken.jpg" class="card-img-top" alt="fries-chicken">
-                        <div class="card-body">
-                          <h5 class="card-title">Fries chicken</h5>
-                          <p class="card-text">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illo pariatur! Hic minus ipsum
-                            quidem, quia tempora odit molestiae officia sapiente et repudiandae repellendus architecto
-                            blanditiis atque itaque libero vitae.
-                          </p>
-                          <p><span> 5.000 frs</span></p>
-                          <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                        <img src="img/vegetable_soup.jpg" class="card-img-top" alt="fries-chicken" style="height: 15rem;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold" style="font-family: arial, sans-serief;">Vegetable Soup</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illo pariatur! Hic minus
+                                ipsum
+                                quidem, quia tempora odit molestiae officia sapiente et repudiandae repellendus
+                                architecto
+                                blanditiis atque itaque libero vitae.
+                            </p>
+                            <p><span class="fw-bold" style="color: orangered;"> 5.000 frs</span></p>
+                            <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!--APROPOS DE NOUS-->
-    <section class="a-propos bg-primary mt-3 mb-3">
+    <section class="About bg-body-tertiary mt-3 mb-5">
         <div class="container">
             <div class="row">
-                <div class="col-6"><img src="" alt="" srcset=""></div>
-                <div class="col-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad asperiores dolor
-                    delectus rem iste mollitia dicta architecto vel reprehenderit, quae doloribus nisi ratione? Qui,
-                    illum. Eius repellendus iure eveniet iste.
+                <div class="col-6 col-sm-12 col-md-6 col-lg-6 col-xl-6"><img src="img/about_us.jpg" alt="" srcset=""></div>
+                <div class="col-6  col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="row p-5">
+                        <h1 class="text-black; fw-bold" style="font-family: arial, sans-serif;">Anick<span style="color: orangered;">.</span> D</h1>
+                        <h3 class="fw-bold " style="color: orangered;"><i>Regalez vous avec nos menus très aperitifs!</i></h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad asperiores dolor
+                            delectus rem iste mollitia dicta architecto vel reprehenderit, quae doloribus nisi ratione?
+                            Qui,
+                            illum. Eius repellendus iure eveniet iste. <br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi molestiae, ipsum perferendis,
+                            voluptate nesciunt eveniet, ab quis tenetur possimus recusandae excepturi. Cumque tempora
+                            provident ratione, voluptates blanditiis perferendis officiis neque?
+                        </p>
+                        <p>
+                            <button class="btn btn-primary" type="button">Contact us!</button>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!--Contact-->
-    <section class="contact">
+    <section class="contact mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <label for="nom">Nom</label>
-                    <input type="text" name="nom" id="nom">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <label for="Description">Description</label>
-                    <textarea name="Description" id="description" placeholder="Decrivez nous votre motif de nous joindre...."></textarea>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label fw-bold">Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+
+                        <label for="exampleFormControlInput1" class="form-label fw-bold">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label fw-bold">Description</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="describle ours preocupation....">
+                        </textarea>
+                      </div>
+                      <div class="col-auto">
+                        <button type="submit" class="btn bg-black  mb-3">Contact us</button>
+                      </div>
                 </div>
             </div>
         </div>
     </section>
     <!--Footer-->
-    <footer>
+    <footer class="bg-secondary" style="height: 20vh;">
         <div class="container">
-            <div class="row justify-content-center">
-                <h4>Anick <span>.</span>D</h4>
-            <div class="copyright">Copyright @ 2025. tous droits revervés.</div>
-                <ul>
-                    <li>Facebook</li>
-                    <li>TicTok</li>
-                    <li>Whats'app</li>
-                </ul>
-                <a href="#">Contact</a>
+            <div class="row py-5 justify-content-center">
+                <div class="col-3 col-sm-12 col-md-3 col-lg-3">
+                    <h4 class="text-black; fw-bold" style="font-family: arial, sans-serif;">Anick<span style="color: orangered;">.</span> D</h4>
+
+                </div>
+                <div class="col-3 col-sm-12 col-md-3 col-lg-3">
+                    <div class="copyright fw-bold text-white">Copyright @ 2025. tous droits revervés.</div>
+                </div>
+                <div class="col-3  col-sm-12 col-md-3 col-lg-3">
+                    
+                </div>
+                <div class="col-3 col-sm-12 col-md-3 col-lg-3">
+                    <a href="#contact" class="nav-link fw-bold fs-5" style="font-family: arial, sans-serif; color: orangered;">Contact</a>
+                </div>
+                
             </div>
         </div>
     </footer>
+    <script defer src="/chemin-vers-fontawesome/js/all.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
