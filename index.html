@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Restaurant Anick.D</title>
+    <link rel="stylesheet" href="style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body class="m-0">
@@ -36,14 +38,13 @@
         </nav>
     </header>
     <!--Sections Héros-->
-    <section class="main-image bg-secondary mb-4"
-        >
-        <div class="container-fluid " style=" background: url('img/main-image.jpg') no-repeat; background-size: cover; height: 50rem;">
+    <section class="main-image bg-secondary mb-5" style="height: 52rem;" >
+        <div class="container-fluid " style=" background: url('img/main-image.jpg') no-repeat ; background-size: cover; height: 52rem;">
             <div class="row   d-flex justify-content-center ">
-                <div class="col-6 text-center align-items-center  position-absolute top-100 start-50 translate-middle mb-5">
+                <div class="col-12 text-center align-items-center  position-absolute top-50 start-50 translate-middle mb-5">
                     <!--Titre-->
-                    <p  >
-                        <h1 style="color: green; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 5rem;">Savourez de la bonne cuisine chez nous.</h1>
+                    <p>
+                        <h1 style=" text-transform: uppercase; color:green; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 3rem;">Savourez de la bonne et <br> delieuse nourriture chez nous!</h1>
                     </p>
                     <button class="btn btn-primary fw-bold" type="button">Commandez ici!</button>
                 </div>
@@ -54,9 +55,12 @@
     <!--MENUS-->
     <section class="menu mb-5">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
+            <div class="row mb-5 d-flex justify-content-center align-items-center">
+                <h1 class="fw-bold text-center fs-1 border-bottom border-success" style="font-family: Arial, Helvetica, sans-serif; color: orangered;">Our menu</h1>
+            </div>
+            <div class="row justify-content-center me-2">
+                <div class="col-3 col-sm-12 col-md-4 col-lg-3 py-1">
+                    <div class="card h-100" style="width: 18rem;">
                         <img src="img/fries_chicken.jpg" class="card-img-top" alt="fries-chicken" style="height: 15rem;">
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold" style="font-family: arial, sans-serief;">Fries chicken</h5>
@@ -72,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-sm-12 col-md-4 col-lg-3 py-1">
                     <div class="card" style="width: 18rem;">
                         <img src="img/burger.png" class="card-img-top" alt="fries-chicken" style="height: 15rem;">
                         <div class="card-body text-center">
@@ -89,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-sm-12 col-md-4 col-lg-3 py-1">
                     <div class="card" style="width: 18rem;">
                         <img src="img/pizza.jpg" class="card-img-top" alt="fries-chicken" style="height: 15rem;">
                         <div class="card-body text-center">
@@ -106,7 +110,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-sm-12 col-md-4 col-lg-3 py-1">
                     <div class="card" style="width: 18rem;">
                         <img src="img/vegetable_soup.jpg" class="card-img-top" alt="fries-chicken" style="height: 15rem;">
                         <div class="card-body text-center">
@@ -129,10 +133,13 @@
     <!--APROPOS DE NOUS-->
     <section class="About bg-body-tertiary mt-3 mb-5">
         <div class="container">
+            <div class="row mb-5 d-flex justify-content-center align-items-center">
+                <h1 class="fw-bold text-center fs-1 border-bottom border-success" style="font-family: Arial, Helvetica, sans-serif; color: orangered;">About us</h1>
+            </div>
             <div class="row">
                 <div class="col-6 col-sm-12 col-md-6 col-lg-6 col-xl-6"><img src="img/about_us.jpg" alt="" srcset=""></div>
                 <div class="col-6  col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="row p-5">
+                    <div class="row col-12 p-5">
                         <h1 class="text-black; fw-bold" style="font-family: arial, sans-serif;">Anick<span style="color: orangered;">.</span> D</h1>
                         <h3 class="fw-bold " style="color: orangered;"><i>Regalez vous avec nos menus très aperitifs!</i></h3>
                         <p>
@@ -155,6 +162,9 @@
     <!--Contact-->
     <section class="contact mb-5">
         <div class="container">
+            <div class="row mb-5 d-flex justify-content-center align-items-center">
+                <h1 class="fw-bold text-center fs-1 border-bottom border-success " style="font-family: Arial, Helvetica, sans-serif; color: orangered;">Contact</h1>
+            </div>
             <div class="row">
                 <div class="col-6">
                     <div class="mb-3">
@@ -170,7 +180,7 @@
                         </textarea>
                       </div>
                       <div class="col-auto">
-                        <button type="submit" class="btn bg-black  mb-3">Contact us</button>
+                        <button type="submit" class="btn bg-black text-white mb-3">Contact us</button>
                       </div>
                 </div>
             </div>
@@ -188,7 +198,11 @@
                     <div class="copyright fw-bold text-white">Copyright @ 2025. tous droits revervés.</div>
                 </div>
                 <div class="col-3  col-sm-12 col-md-3 col-lg-3">
-                    
+                    <i class="fab fa-facebook " style="color: #1877F2;"></i>
+                    <i class="fab fa-tiktok"></i>
+                    <i class="fab fa-instagram" ></i>
+                    <i class="fab fa-whatsapp" style="color: #09f79b;"></i>
+
                 </div>
                 <div class="col-3 col-sm-12 col-md-3 col-lg-3">
                     <a href="#contact" class="nav-link fw-bold fs-5" style="font-family: arial, sans-serif; color: orangered;">Contact</a>
